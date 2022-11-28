@@ -1,0 +1,80 @@
+.app{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 25%;
+    height: 500px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: url(https://cdn.pixabay.com/photo/2020/02/06/03/15/mountain-4822902_960_720.png) no-repeat; */
+    background: url(https://pbs.twimg.com/media/DKQkFQwUQAE60fF.jpg) no-repeat;
+    /* background-size: 400px 600px; */
+    background-size: cover cover;
+    background-position: center;
+    background-attachment: fixed;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.container input{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid;
+    background: transparent;
+    font-size: 1.1rem;
+    margin: 12px auto;
+}
+.container h2{
+    font-size: 2.6rem;
+    margin: 10px auto;
+}
+.container h1{
+    font-size: 4.6rem;
+    margin: 10px auto;
+}
+.container h3{
+    font-size: 1.1rem;
+    margin: 10px auto;
+}
+.container h4{
+    font-size: 1.6rem;
+    margin: 10px auto;
+    color: white;
+}
+.container p{
+    font-size: 2.6rem;
+    margin: 0px auto;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:768px){
+    .container{
+        width: 90%;
+    } 
+}
+.error{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.error > button{
+    width: 80%;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
